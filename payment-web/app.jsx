@@ -23,11 +23,11 @@ const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/144285837816129542
 // ==========================================
 // 🔧 圖片與商家資訊設定
 // ==========================================
-const WECHAT_QR_IMAGE = "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=wxp://real-wechat-code-here"; 
-const ALIPAY_QR_IMAGE = "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://qr.alipay.hk/real-alipay-code";
-const FPS_ID = "6888 1234";
-const FPS_COPY_VALUE = "68881234"; 
-const MERCHANT_NAME = "Super Demo Shop Ltd.";
+const WECHAT_QR_IMAGE = "https://imgur.com/a/sPNsY01"; 
+const ALIPAY_QR_IMAGE = "https://imgur.com/a/tB3tZJx";
+const FPS_ID = "+85268896332";
+const FPS_COPY_VALUE = "68896332"; 
+const MERCHANT_NAME = "Fight Sight Finds Ltd.";
 
 export default function App() {
   // step: initial -> email_input -> payment -> upload -> success
@@ -212,7 +212,7 @@ export default function App() {
                 <div className="w-8 h-8 bg-gradient-to-tr from-blue-600 to-purple-600 rounded-lg flex items-center justify-center text-white shadow-lg shadow-blue-200">
                   <Zap size={16} fill="currentColor" />
                 </div>
-                <span className="font-bold text-slate-700 tracking-tight">SuperPay</span>
+                <span className="font-bold text-slate-700 tracking-tight">Fight Sight Finds </span>
              </div>
              {step !== 'initial' && (
                <button onClick={resetFlow} className="p-2 hover:bg-slate-100 rounded-full transition-colors text-slate-400">
@@ -477,7 +477,7 @@ export default function App() {
                   <p className="text-yellow-500/80 text-xs font-bold tracking-[0.2em] uppercase mb-4">Exclusive Code</p>
                   <div 
                     className="text-4xl font-mono font-black text-white tracking-wider cursor-pointer flex items-center justify-center gap-3 relative z-10"
-                    onClick={() => copyToClipboard('VIP888')}
+                    onClick={() => copyToClipboard('NEVER_7TULM')}
                   >
                     <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-200">VIP888</span>
                     <Copy size={24} className="text-slate-500 group-hover:text-yellow-400 transition-colors" />
@@ -555,4 +555,5 @@ export default function App() {
       `}</style>
     </div>
   );
+
 }
