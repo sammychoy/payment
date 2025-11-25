@@ -479,7 +479,7 @@ export default function App() {
                     className="text-4xl font-mono font-black text-white tracking-wider cursor-pointer flex items-center justify-center gap-3 relative z-10"
                     onClick={() => copyToClipboard('NEVER_7TULM')}
                   >
-                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-200">VIP888</span>
+                    <span className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-200">NEVER_7TULM</span>
                     <Copy size={24} className="text-slate-500 group-hover:text-yellow-400 transition-colors" />
                   </div>
                 </div>
@@ -557,3 +557,4 @@ export default function App() {
   );
 
 }
+
